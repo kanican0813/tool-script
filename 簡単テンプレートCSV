@@ -11,3 +11,7 @@ echo "$id,$name,$tel,$address,$note,1"
 note=""
 note=" "
 note=
+
+# zshの場合コメントアウトを使いたい場合
+~/.zshrcに以下の設定を追加する
+setopt interactivecomments
